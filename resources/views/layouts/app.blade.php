@@ -47,6 +47,7 @@
             <x-footer></x-footer>
         </div>
         @livewireScripts
+        @livewireChartsScripts
         @bukScripts(true)
         @stack('scripts')
         <script src="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.js"></script>
